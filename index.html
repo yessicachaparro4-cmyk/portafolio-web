@@ -1,13 +1,2035 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portafolio-web</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Portafolio | Yessica Chaparro</title>
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+</head>
+
+
+<body>
+
+
+  <!-- ==========================================
+       NAVBAR
+  =========================================== -->
+
+  <nav class="navbar navbar-expand-lg">
+
+    <div class="container-fluid px-lg-5">
+
+      <a
+        class="navbar-brand"
+        href="#inicio"
+      >
+        Yessica Chaparro
+      </a>
+
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarMenu"
+        aria-controls="navbarMenu"
+        aria-expanded="false"
+        aria-label="Abrir menú"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div
+        class="collapse navbar-collapse"
+        id="navbarMenu"
+      >
+
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">
+              Inicio
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre-mi">
+              Sobre mí
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#habilidades">
+              Habilidades
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#todos-proyectos">
+              Proyectos
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#experiencia">
+              Experiencia
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#formacion">
+              Formación
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">
+              Contacto
+            </a>
+          </li>
+
+        </ul>
+
+
+        <button
+          id="tema"
+          class="btn btn-outline-primary ms-lg-3 mt-3 mt-lg-0"
+          type="button"
+        >
+          Modo oscuro
+        </button>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
+
+  <main>
+
+
+    <!-- ==========================================
+         HERO
+    =========================================== -->
+
+    <section id="inicio">
+
+      <div class="hero-overlay">
+
+        <div class="container hero-content">
+
+          <p class="hero-small">
+            Tecnología · Datos · Economía
+          </p>
+
+
+          <h1>
+            Yessica Chaparro
+          </h1>
+
+
+          <h2>
+            Desarrolladora Java Full Stack Jr.
+            <span>|</span>
+            Economista
+            <span>|</span>
+            Análisis de Datos
+          </h2>
+
+
+          <p class="hero-description">
+            Desarrollo soluciones web funcionales y aplico análisis
+            de datos para resolver problemas de forma clara,
+            estructurada y orientada a resultados.
+          </p>
+
+
+          <a
+            href="#todos-proyectos"
+            class="btn btn-primary"
+          >
+            Conoce mis proyectos
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+         DASHBOARD
+    =========================================== -->
+
+    <section class="container-fluid portfolio-dashboard">
+
+
+      <!-- ========================================
+           PRIMERA FILA
+      ========================================= -->
+
+      <div class="row g-4">
+
+
+        <!-- SOBRE MÍ -->
+
+        <div
+          id="sobre-mi"
+          class="col-12 col-lg-4"
+        >
+
+          <div class="card dashboard-card h-100">
+
+            <div class="card-body">
+
+              <div class="dashboard-heading">
+
+                <span class="dashboard-icon">
+                  👩‍💻
+                </span>
+
+                <h2>
+                  Sobre mí
+                </h2>
+
+              </div>
+
+
+              <p class="about-intro">
+                Desarrolladora Java Full Stack Jr. y Economista,
+                interesada en integrar tecnología, análisis de datos
+                y desarrollo de software para crear soluciones útiles.
+              </p>
+
+
+              <div class="about-highlights">
+
+
+                <div class="about-highlight">
+
+                  <strong>
+                    💻 Desarrollo
+                  </strong>
+
+                  <span>
+                    Creación de soluciones web funcionales,
+                    responsivas e interactivas.
+                  </span>
+
+                </div>
+
+
+                <div class="about-highlight">
+
+                  <strong>
+                    📊 Datos
+                  </strong>
+
+                  <span>
+                    Análisis, procesamiento y visualización
+                    de información.
+                  </span>
+
+                </div>
+
+
+                <div class="about-highlight">
+
+                  <strong>
+                    📈 Economía
+                  </strong>
+
+                  <span>
+                    Investigación, evaluación de información
+                    y apoyo a la toma de decisiones.
+                  </span>
+
+                </div>
+
+
+              </div>
+
+
+              <a
+                href="#experiencia"
+                class="btn btn-outline-primary mt-3"
+              >
+                Conoce más sobre mí
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- HABILIDADES -->
+
+        <div
+          id="habilidades"
+          class="col-12 col-lg-4"
+        >
+
+          <div class="card dashboard-card h-100">
+
+            <div class="card-body">
+
+              <div class="dashboard-heading">
+
+                <span class="dashboard-icon">
+                  ⚙️
+                </span>
+
+                <h2>
+                  Habilidades
+                </h2>
+
+              </div>
+
+
+              <!-- DESARROLLO -->
+
+              <div class="skill-group">
+
+                <h3>
+                  Desarrollo de Software
+                </h3>
+
+                <div class="skills-list">
+
+                  <span class="badge skill-badge">Java</span>
+                  <span class="badge skill-badge">JavaScript</span>
+                  <span class="badge skill-badge">HTML5</span>
+                  <span class="badge skill-badge">CSS3</span>
+                  <span class="badge skill-badge">Bootstrap</span>
+                  <span class="badge skill-badge">MySQL</span>
+                  <span class="badge skill-badge">Git</span>
+                  <span class="badge skill-badge">GitHub</span>
+
+                </div>
+
+              </div>
+
+
+              <hr>
+
+
+              <!-- DATOS -->
+
+              <div class="skill-group">
+
+                <h3>
+                  Análisis de Datos
+                </h3>
+
+                <div class="skills-list">
+
+                  <span class="badge skill-badge">
+                    Análisis de datos
+                  </span>
+
+                  <span class="badge skill-badge">
+                    Análisis estadístico
+                  </span>
+
+                  <span class="badge skill-badge">
+                    Econometría
+                  </span>
+
+                  <span class="badge skill-badge">
+                    Visualización de datos
+                  </span>
+
+                  <span class="badge skill-badge">
+                    Evaluación de proyectos
+                  </span>
+
+                </div>
+
+              </div>
+
+
+              <hr>
+
+
+              <!-- HERRAMIENTAS -->
+
+              <div class="skill-group">
+
+                <h3>
+                  Herramientas
+                </h3>
+
+                <div class="skills-list">
+
+                  <span class="badge skill-badge">Python</span>
+                  <span class="badge skill-badge">Excel Avanzado</span>
+                  <span class="badge skill-badge">RStudio</span>
+                  <span class="badge skill-badge">Stata</span>
+                  <span class="badge skill-badge">ArcGIS</span>
+                  <span class="badge skill-badge">Microsoft Office</span>
+                  <span class="badge skill-badge">Jira</span>
+
+                </div>
+
+              </div>
+
+
+              <hr>
+
+
+              <!-- PROFESIONALES -->
+
+              <div class="skill-group">
+
+                <h3>
+                  Habilidades Profesionales
+                </h3>
+
+                <div class="soft-skills">
+
+                  <span>Pensamiento analítico</span>
+                  <span>Resolución de problemas</span>
+                  <span>Comunicación efectiva</span>
+                  <span>Trabajo colaborativo</span>
+                  <span>Pensamiento crítico</span>
+                  <span>Adaptabilidad</span>
+                  <span>Gestión del tiempo</span>
+                  <span>Atención al detalle</span>
+                  <span>Orientación a resultados</span>
+                  <span>Capacidad de aprendizaje</span>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- PROYECTOS DESTACADOS -->
+
+        <div class="col-12 col-lg-4">
+
+          <div class="card dashboard-card h-100">
+
+            <div class="card-body">
+
+              <div class="dashboard-heading">
+
+                <span class="dashboard-icon">
+                  📁
+                </span>
+
+                <h2>
+                  Proyectos
+                </h2>
+
+              </div>
+
+
+              <div class="featured-project">
+
+                <img
+                  src="/src/assets/apex-iron.png"
+                  class="img-fluid project-featured"
+                  alt="Proyecto Apex Iron"
+                >
+
+
+                <div class="featured-project-info">
+
+                  <h3>
+                    Proyectos de Desarrollo y Análisis
+                  </h3>
+
+
+                  <p>
+                    Proyectos desarrollados durante mi formación
+                    en desarrollo web, programación, tecnología
+                    y economía.
+                  </p>
+
+
+                  <a
+                    href="#todos-proyectos"
+                    class="btn btn-primary"
+                  >
+                    Ver todos
+                  </a>
+
+                </div>
+
+              </div>
+
+
+
+              <div class="row g-2 mt-3">
+
+
+                <div class="col-3">
+
+                  <a
+                    href="#apex"
+                    class="mini-project"
+                  >
+
+                    <img
+                      src="/src/assets/apex-iron.png"
+                      alt="Apex Iron"
+                    >
+
+                    <span>
+                      Apex
+                    </span>
+
+                  </a>
+
+                </div>
+
+
+                <div class="col-3">
+
+                  <a
+                    href="#hydra"
+                    class="mini-project"
+                  >
+
+                    <img
+                      src="/src/assets/hydra.png"
+                      alt="HYDRA"
+                    >
+
+                    <span>
+                      HYDRA
+                    </span>
+
+                  </a>
+
+                </div>
+
+
+                <div class="col-3">
+
+                  <a
+                    href="#techblog"
+                    class="mini-project"
+                  >
+
+                    <img
+                      src="/src/assets/techblog.png"
+                      alt="TechBlog"
+                    >
+
+                    <span>
+                      TechBlog
+                    </span>
+
+                  </a>
+
+                </div>
+
+
+                <div class="col-3">
+
+                  <a
+                    href="#reto-banxico"
+                    class="mini-project"
+                  >
+
+                    <img
+                      src="/src/assets/retobanxico.png"
+                      alt="Reto Banxico 2024"
+                    >
+
+                    <span>
+                      Banxico
+                    </span>
+
+                  </a>
+
+                </div>
+
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+
+      <!-- ========================================
+           EXPERIENCIA + LOGROS
+      ========================================= -->
+
+      <div class="row g-4 mt-2">
+
+
+        <!-- EXPERIENCIA -->
+
+        <div
+          id="experiencia"
+          class="col-12 col-xl-7"
+        >
+
+          <div class="card dashboard-card experience-card h-100">
+
+            <div class="card-body">
+
+              <div class="dashboard-heading">
+
+                <span class="dashboard-icon">
+                  💼
+                </span>
+
+                <h2>
+                  Experiencia Profesional y Académica
+                </h2>
+
+              </div>
+
+
+
+              <!-- SHCP -->
+
+              <div class="timeline-item">
+
+                <div class="timeline-header">
+
+                  <div>
+
+                    <h3>
+                      Secretaría de Hacienda y Crédito Público
+                    </h3>
+
+                    <p class="experience-role">
+                      Estancia preprofesional · Análisis y Evaluación PbR-SED
+                    </p>
+
+                  </div>
+
+
+                  <span class="experience-date">
+                    Ene. 2026 – Mar. 2026
+                  </span>
+
+                </div>
+
+
+                <p class="experience-description">
+                  Monitoreo y análisis del gasto federalizado,
+                  evaluación del Diagnóstico PbR-SED y análisis
+                  de información presupuestaria para apoyar
+                  la toma de decisiones.
+                </p>
+
+              </div>
+
+
+
+              <!-- CEEMES -->
+
+              <div class="timeline-item">
+
+                <div class="timeline-header">
+
+                  <div>
+
+                    <h3>
+                      Centro Mexicano de Estudios Económicos y Sociales
+                    </h3>
+
+                    <p class="experience-role">
+                      Servicio Social · Análisis de Datos y Estadística
+                    </p>
+
+                  </div>
+
+
+                  <span class="experience-date">
+                    Sept. 2025 – Jun. 2026
+                  </span>
+
+                </div>
+
+
+                <p class="experience-description">
+                  Procesamiento y análisis de datos con Excel y RStudio,
+                  elaboración de materiales y apoyo en capacitación
+                  de matemáticas y estadística aplicada.
+                </p>
+
+              </div>
+
+
+
+              <!-- ASESORÍAS -->
+
+              <div class="timeline-item">
+
+                <div class="timeline-header">
+
+                  <div>
+
+                    <h3>
+                      Universidad Autónoma Chapingo
+                    </h3>
+
+                    <p class="experience-role">
+                      Asesora Académica · Programa de Asesorías en Pares
+                    </p>
+
+                  </div>
+
+
+                  <span class="experience-date">
+                    Feb. 2024 – May. 2026
+                  </span>
+
+                </div>
+
+
+                <p class="experience-description">
+                  Acompañamiento académico en Cálculo Diferencial,
+                  Cálculo Integral y Taller de Matemáticas I,
+                  fortaleciendo el aprendizaje y desempeño estudiantil.
+                </p>
+
+              </div>
+
+
+
+              <!-- PROFONI -->
+
+              <div class="timeline-item">
+
+                <div class="timeline-header">
+
+                  <div>
+
+                    <h3>
+                      PROFONI · Universidad Autónoma Chapingo
+                    </h3>
+
+                    <p class="experience-role">
+                      Investigadora Académica
+                    </p>
+
+                  </div>
+
+
+                  <span class="experience-date">
+                    Jul. 2024 – Ago. 2026
+                  </span>
+
+                </div>
+
+
+                <p class="experience-description">
+                  Investigación sobre inmigración centroamericana
+                  en el Estado de México desde una perspectiva
+                  económica y social, con presentación de resultados
+                  en congresos académicos nacionales e internacionales.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- LOGROS -->
+
+        <div class="col-12 col-xl-5">
+
+          <div class="card dashboard-card achievements-card h-100">
+
+            <div class="card-body">
+
+              <div class="dashboard-heading">
+
+                <span class="dashboard-icon">
+                  🏆
+                </span>
+
+                <h2>
+                  Logros y Participación Académica
+                </h2>
+
+              </div>
+
+
+              <div class="achievement-grid">
+
+
+                <div class="achievement-item">
+
+                  <span class="achievement-emoji">
+                    🎤
+                  </span>
+
+                  <div>
+
+                    <h3>
+                      Ponente
+                    </h3>
+
+                    <p>
+                      Segunda Feria Científica Chapingo.
+                    </p>
+
+                  </div>
+
+                </div>
+
+
+                <div class="achievement-item">
+
+                  <span class="achievement-emoji">
+                    🌎
+                  </span>
+
+                  <div>
+
+                    <h3>
+                      Congresos Internacionales
+                    </h3>
+
+                    <p>
+                      Ponente en el VII y VIII Congreso Internacional
+                      Semillero de Investigadores.
+                    </p>
+
+                  </div>
+
+                </div>
+
+
+                <div class="achievement-item">
+
+                  <span class="achievement-emoji">
+                    🔬
+                  </span>
+
+                  <div>
+
+                    <h3>
+                      Investigación
+                    </h3>
+
+                    <p>
+                      Presentación del tema sobre inmigración
+                      centroamericana en el Estado de México.
+                    </p>
+
+                  </div>
+
+                </div>
+
+
+                <div class="achievement-item">
+
+                  <span class="achievement-emoji">
+                    🥇
+                  </span>
+
+                  <div>
+
+                    <h3>
+                      1er lugar
+                    </h3>
+
+                    <p>
+                      Concurso de Fotografía DICEA.
+                    </p>
+
+                  </div>
+
+                </div>
+
+
+                <div class="achievement-item">
+
+                  <span class="achievement-emoji">
+                    🥈
+                  </span>
+
+                  <div>
+
+                    <h3>
+                      2do lugar
+                    </h3>
+
+                    <p>
+                      Concurso de Video DICEA.
+                    </p>
+
+                  </div>
+
+                </div>
+
+
+                <div class="achievement-item">
+
+                  <span class="achievement-emoji">
+                    🎓
+                  </span>
+
+                  <div>
+
+                    <h3>
+                      Participación Universitaria
+                    </h3>
+
+                    <p>
+                      Aplicadora del examen de admisión y monitora
+                      para estudiantes de nuevo ingreso.
+                    </p>
+
+                  </div>
+
+                </div>
+
+
+                <div class="achievement-item">
+
+                  <span class="achievement-emoji">
+                    📊
+                  </span>
+
+                  <div>
+
+                    <h3>
+                      Prácticas preprofesionales
+                    </h3>
+
+                    <p>
+                      Experiencia en ámbitos económicos,
+                      aduaneros y de producción primaria.
+                    </p>
+
+                  </div>
+
+                </div>
+
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+
+      <!-- ========================================
+           FORMACIÓN + IDIOMAS + CONTACTO
+      ========================================= -->
+
+      <div class="row g-4 mt-3">
+
+
+        <!-- FORMACIÓN -->
+
+        <div
+          id="formacion"
+          class="col-12 col-lg-6"
+        >
+
+          <div class="card dashboard-card h-100">
+
+            <div class="card-body">
+
+              <div class="dashboard-heading">
+
+                <span class="dashboard-icon">
+                  🎓
+                </span>
+
+                <h2>
+                  Formación Educativa
+                </h2>
+
+              </div>
+
+
+              <div class="education-stack">
+
+
+                <div class="education-item">
+
+                  <div>
+
+                    <h3>
+                      Generation México
+                    </h3>
+
+                    <p>
+                      Desarrolladora Java Full Stack
+                    </p>
+
+                  </div>
+
+                  <span class="education-date">
+                    2026 – Actualidad
+                  </span>
+
+                </div>
+
+
+                <div class="education-item">
+
+                  <div>
+
+                    <h3>
+                      Universidad Autónoma Chapingo
+                    </h3>
+
+                    <p>
+                      Licenciatura en Economía
+                    </p>
+
+                  </div>
+
+                  <span class="education-date">
+                    2022 – 2026
+                  </span>
+
+                </div>
+
+
+                <div class="education-item">
+
+                  <div>
+
+                    <h3>
+                      Universidad Nacional de Rosario
+                    </h3>
+
+                    <p>
+                      Intercambio académico en Economía
+                    </p>
+
+                  </div>
+
+                  <span class="education-date">
+                    Mar. 2025 – Jul. 2025
+                  </span>
+
+                </div>
+
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- IDIOMAS + CONTACTO -->
+
+        <div class="col-12 col-lg-6">
+
+          <div class="row g-4">
+
+
+            <!-- IDIOMAS -->
+
+            <div class="col-12">
+
+              <div class="card dashboard-card">
+
+                <div class="card-body">
+
+                  <div class="dashboard-heading">
+
+                    <span class="dashboard-icon">
+                      🌐
+                    </span>
+
+                    <h2>
+                      Idiomas
+                    </h2>
+
+                  </div>
+
+
+                  <div class="languages-grid">
+
+
+                    <div class="language-item">
+
+                      <span>
+                        Español
+                      </span>
+
+                      <strong>
+                        Nativo
+                      </strong>
+
+                    </div>
+
+
+                    <div class="language-item">
+
+                      <span>
+                        Inglés
+                      </span>
+
+                      <strong>
+                        B1 · Intermedio
+                      </strong>
+
+                    </div>
+
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+            <!-- CONTACTO -->
+
+            <div class="col-12">
+
+              <div
+                id="contacto"
+                class="card dashboard-card"
+              >
+
+                <div class="card-body">
+
+                  <div class="dashboard-heading">
+
+                    <span class="dashboard-icon">
+                      ✉️
+                    </span>
+
+                    <h2>
+                      Contacto
+                    </h2>
+
+                  </div>
+
+
+                  <div class="contact-grid">
+
+
+                    <a
+                      href="mailto:yessicachaparro4@gmail.com"
+                      class="contact-item"
+                    >
+                      ✉️ Correo
+                    </a>
+
+
+                    <a
+                      href="https://www.linkedin.com/in/yessica-chaparro"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="contact-item"
+                    >
+                      💼 LinkedIn
+                    </a>
+
+
+                    <a
+                      href="https://github.com/yessicachaparro4-cmyk"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="contact-item"
+                    >
+                      💻 GitHub
+                    </a>
+
+
+                    <div class="contact-item">
+                      📍 Estado de México, México
+                    </div>
+
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+
+      <!-- ========================================
+           CURSOS
+      ========================================= -->
+
+      <div class="row mt-4">
+
+        <div class="col-12">
+
+          <div class="card dashboard-card courses-main-card">
+
+            <div class="card-body">
+
+              <div class="dashboard-heading">
+
+                <span class="dashboard-icon">
+                  📜
+                </span>
+
+                <h2>
+                  Cursos y Certificaciones
+                </h2>
+
+              </div>
+
+
+              <div class="courses-three-columns">
+
+
+                <!-- TECNOLOGÍA -->
+
+                <section class="courses-column">
+
+                  <h3>
+                    💻 Tecnología y Programación
+                  </h3>
+
+
+                  <div class="course-card">
+
+                    <strong>
+                      Fundamentos de Python
+                    </strong>
+
+                    <span>
+                      INFOTEC · Oct. 2026
+                    </span>
+
+                  </div>
+
+
+                  <div class="course-card">
+
+                    <strong>
+                      Taller de Programación en Python
+                    </strong>
+
+                    <span>
+                      UACh · Jun. 2026
+                    </span>
+
+                  </div>
+
+
+                  <div class="course-card">
+
+                    <strong>
+                      Introducción a Java
+                    </strong>
+
+                    <span>
+                      Accenture · Sep. 2026
+                    </span>
+
+                  </div>
+
+
+                  <div class="course-card">
+
+                    <strong>
+                      Excel Avanzado
+                    </strong>
+
+                    <span>
+                      UACh · Mar. 2026
+                    </span>
+
+                  </div>
+
+
+                  <div class="course-card">
+
+                    <strong>
+                      Python con Spyder
+                    </strong>
+
+                    <span>
+                      Formación complementaria
+                    </span>
+
+                  </div>
+
+                </section>
+
+
+
+                <!-- DATOS -->
+
+                <section class="courses-column">
+
+                  <h3>
+                    📊 Economía y Análisis de Datos
+                  </h3>
+
+
+                  <div class="course-card">
+
+                    <strong>
+                      Ciencia de Datos con R
+                    </strong>
+
+                    <span>
+                      Estudios Econométricos y UACH
+                    </span>
+
+                  </div>
+
+
+                  <div class="course-card">
+
+                    <strong>
+                      Machine Learning para Finanzas con Python
+                    </strong>
+
+                    <span>
+                      Estudios Econométricos y UACH
+                    </span>
+
+                  </div>
+
+
+                  <div class="course-card">
+
+                    <strong>
+                      Microdatos ENIGH con Stata
+                    </strong>
+
+                    <span>
+                      Estudios Econométricos y UACH
+                    </span>
+
+                  </div>
+
+
+                  <div class="course-card">
+
+                    <strong>
+                      Modelos microeconométricos con Python
+                    </strong>
+
+                    <span>
+                      Estudios Econométricos y UACH
+                    </span>
+
+                  </div>
+
+
+                  <div class="course-card">
+
+                    <strong>
+                      Matemática Financiera con Excel
+                    </strong>
+
+                    <span>
+                      Estudios Econométricos y UACH
+                    </span>
+
+                  </div>
+
+
+                  <div class="course-card">
+
+                    <strong>
+                      ArcGIS y análisis de datos espaciales
+                    </strong>
+
+                    <span>
+                      Mapas temáticos
+                    </span>
+
+                  </div>
+
+
+                  <div class="course-card">
+
+                    <strong>
+                      Presupuesto basado en Resultados 2025
+                    </strong>
+
+                    <span>
+                      Diplomado
+                    </span>
+
+                  </div>
+
+                </section>
+
+
+
+                <!-- COMPLEMENTARIA -->
+
+                <section class="courses-column">
+
+                  <h3>
+                    🗣️ Formación Complementaria
+                  </h3>
+
+
+                  <div class="course-card">
+
+                    <strong>
+                      Ortografía para Principiantes
+                    </strong>
+
+                    <span>
+                      UNAM
+                    </span>
+
+                  </div>
+
+
+                  <div class="course-card">
+
+                    <strong>
+                      Exposición Oral y Presentaciones
+                    </strong>
+
+                    <span>
+                      UNAM
+                    </span>
+
+                  </div>
+
+
+                  <div class="course-card">
+
+                    <strong>
+                      Habilidades Blandas
+                    </strong>
+
+                    <span>
+                      Formación complementaria
+                    </span>
+
+                  </div>
+
+                </section>
+
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </section>
+
+
+
+    <!-- ==========================================
+         MIS PROYECTOS
+    =========================================== -->
+
+    <section
+      id="todos-proyectos"
+      class="container section-space"
+    >
+
+      <h2 class="section-title text-center">
+        Mis proyectos
+      </h2>
+
+
+      <div class="row g-4">
+
+
+        <!-- APEX IRON -->
+
+        <article
+          id="apex"
+          class="col-12 col-md-6"
+        >
+
+          <div class="card project-card h-100">
+
+            <img
+              src="/src/assets/apex-iron.png"
+              class="card-img-top project-photo"
+              alt="Proyecto Apex Iron"
+            >
+
+
+            <div class="card-body">
+
+              <h3 class="card-title">
+                Apex Iron
+              </h3>
+
+
+              <p class="project-type">
+                Proyecto Integrador · E-commerce
+              </p>
+
+
+              <p class="card-text">
+                Desarrollo colaborativo de una plataforma web de
+                comercio electrónico orientada a productos de hardware
+                y tecnología.
+              </p>
+
+
+              <p class="card-text">
+                Participé en el desarrollo del frontend, construcción
+                de interfaces responsivas, navegación y componentes
+                del sitio.
+              </p>
+
+
+              <h4 class="project-subtitle">
+                Funcionalidades
+              </h4>
+
+
+              <ul class="project-features">
+
+                <li>
+                  Catálogo de productos tecnológicos.
+                </li>
+
+                <li>
+                  Diseño responsivo.
+                </li>
+
+                <li>
+                  Formularios de contacto.
+                </li>
+
+                <li>
+                  Validaciones con JavaScript.
+                </li>
+
+                <li>
+                  Uso de Fetch.
+                </li>
+
+                <li>
+                  Trabajo colaborativo con Git y GitHub.
+                </li>
+
+                <li>
+                  Organización mediante Scrum y Jira.
+                </li>
+
+              </ul>
+
+
+              <div class="tech-list">
+
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Bootstrap</span>
+                <span>JavaScript</span>
+                <span>Fetch</span>
+                <span>Git</span>
+                <span>GitHub</span>
+
+              </div>
+
+
+              <div class="project-buttons">
+
+                <a
+                  href="https://github.com/JesusPeralta0/Apex-Iron"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary"
+                >
+                  Ver proyecto
+                </a>
+
+
+                <button
+                  class="btn btn-outline-primary"
+                  data-like
+                  type="button"
+                >
+                  Guardar
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- HYDRA -->
+
+        <article
+          id="hydra"
+          class="col-12 col-md-6"
+        >
+
+          <div class="card project-card h-100">
+
+            <img
+              src="/src/assets/hydra.png"
+              class="card-img-top project-photo"
+              alt="Proyecto HYDRA"
+            >
+
+
+            <div class="card-body">
+
+              <h3 class="card-title">
+                HYDRA
+              </h3>
+
+
+              <p class="project-type">
+                Hackathon Generation México
+              </p>
+
+
+              <p class="card-text">
+                Proyecto desarrollado en equipo durante un Hackathon
+                de Generation México.
+              </p>
+
+
+              <p class="card-text">
+                Participé en el desarrollo frontend de un catálogo
+                interactivo de productos, implementando funcionalidades
+                con JavaScript y almacenamiento local.
+              </p>
+
+
+              <h4 class="project-subtitle">
+                Funcionalidades
+              </h4>
+
+
+              <ul class="project-features">
+
+                <li>
+                  Catálogo de 15 productos.
+                </li>
+
+                <li>
+                  Filtros por categorías.
+                </li>
+
+                <li>
+                  Ordenamiento de productos.
+                </li>
+
+                <li>
+                  Visualización de promociones.
+                </li>
+
+                <li>
+                  Sistema de favoritos.
+                </li>
+
+                <li>
+                  Selección de productos.
+                </li>
+
+                <li>
+                  Persistencia mediante localStorage.
+                </li>
+
+              </ul>
+
+
+              <div class="tech-list">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>DOM</span>
+                <span>localStorage</span>
+                <span>Git</span>
+                <span>GitHub</span>
+
+              </div>
+
+
+              <div class="project-buttons">
+
+                <a
+                  href="https://github.com/RodriHdz/Hydra"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary"
+                >
+                  Ver proyecto
+                </a>
+
+
+                <button
+                  class="btn btn-outline-primary"
+                  data-like
+                  type="button"
+                >
+                  Guardar
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- TECHBLOG -->
+
+        <article
+          id="techblog"
+          class="col-12 col-md-6"
+        >
+
+          <div class="card project-card h-100">
+
+            <img
+              src="/src/assets/techblog.png"
+              class="card-img-top project-photo"
+              alt="Proyecto TechBlog"
+            >
+
+
+            <div class="card-body">
+
+              <h3 class="card-title">
+                TechBlog
+              </h3>
+
+
+              <p class="project-type">
+                Proyecto individual · Desarrollo Web Frontend
+              </p>
+
+
+              <p class="card-text">
+                Desarrollé un sitio web responsivo enfocado en la divulgación
+                de contenidos sobre tecnología y programación.
+              </p>
+
+
+              <h4 class="project-subtitle">
+                Funcionalidades
+              </h4>
+
+
+              <ul class="project-features">
+
+                <li>
+                  Interfaz adaptable mediante Bootstrap 5.
+                </li>
+
+                <li>
+                  Tres páginas interconectadas:
+                  Inicio, Quiénes somos y Contacto.
+                </li>
+
+                <li>
+                  Navegación funcional y diseño consistente.
+                </li>
+
+                <li>
+                  Tarjetas informativas y contenido multimedia.
+                </li>
+
+                <li>
+                  Formulario interactivo con validación de campos.
+                </li>
+
+                <li>
+                  Alertas dinámicas mediante JavaScript.
+                </li>
+
+                <li>
+                  Control de versiones con Git y GitHub.
+                </li>
+
+              </ul>
+
+
+              <div class="tech-list">
+
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Bootstrap 5</span>
+                <span>Git</span>
+                <span>GitHub</span>
+
+              </div>
+
+
+              <div class="project-buttons">
+
+                <a
+                  href="https://yessicachaparro4-cmyk.github.io/CH-73-proyectos/AD-14-Refactorizacion-Blog/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary"
+                >
+                  Ver sitio
+                </a>
+
+
+                <a
+                  href="https://github.com/yessicachaparro4-cmyk/CH-73-proyectos/tree/master/AD-14-Refactorizacion-Blog"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-outline-primary"
+                >
+                  Ver código
+                </a>
+
+
+                <button
+                  class="btn btn-outline-primary"
+                  data-like
+                  type="button"
+                >
+                  Guardar
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- RETO BANXICO -->
+
+        <article
+          id="reto-banxico"
+          class="col-12 col-md-6"
+        >
+
+          <div class="card project-card h-100">
+
+            <img
+              src="/src/assets/retobanxico.png"
+              class="card-img-top project-photo"
+              alt="Reto Banxico 2024"
+            >
+
+
+            <div class="card-body">
+
+              <h3 class="card-title">
+                Reto Banxico 2024
+              </h3>
+
+
+              <p class="project-type">
+                Economía · Investigación · Análisis
+              </p>
+
+
+              <p class="card-text">
+                Proyecto académico enfocado en la aplicación de
+                conocimientos económicos y análisis de información
+                dentro del Reto Banxico 2024.
+              </p>
+
+
+              <p class="card-text">
+                La actividad fortaleció habilidades de investigación,
+                pensamiento crítico, interpretación de datos y
+                comunicación de resultados.
+              </p>
+
+
+              <h4 class="project-subtitle">
+                Competencias aplicadas
+              </h4>
+
+
+              <ul class="project-features">
+
+                <li>
+                  Análisis económico.
+                </li>
+
+                <li>
+                  Investigación.
+                </li>
+
+                <li>
+                  Interpretación de información.
+                </li>
+
+                <li>
+                  Análisis de datos.
+                </li>
+
+                <li>
+                  Pensamiento crítico.
+                </li>
+
+                <li>
+                  Trabajo colaborativo.
+                </li>
+
+                <li>
+                  Comunicación de resultados.
+                </li>
+
+              </ul>
+
+
+              <div class="tech-list">
+
+                <span>Economía</span>
+                <span>Excel</span>
+                <span>Investigación</span>
+                <span>Análisis de Datos</span>
+
+              </div>
+
+
+              <div class="project-buttons">
+
+                <a
+                  href="https://chapingo-my.sharepoint.com/:w:/g/personal/al21123717_chapingo_mx/cQol96-f13ewTqdEoObjfD6bEgUCS7iz1xQf3p6xjVU2C5yHqQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary"
+                >
+                  Ver proyecto
+                </a>
+
+
+                <button
+                  class="btn btn-outline-primary"
+                  data-like
+                  type="button"
+                >
+                  Guardar
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- ==========================================
+       FOOTER
+  =========================================== -->
+
+  <footer>
+
+    <div class="container text-center">
+
+      <p>
+        © 2026 Yessica Chaparro |
+        Portafolio Profesional
+      </p>
+
+    </div>
+
+  </footer>
+
+
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+  ></script>
+
+
+  <!-- JavaScript propio -->
+  <script
+    type="module"
+    src="/src/main.js"
+  ></script>
+
+
+</body>
+
 </html>
